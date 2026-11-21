@@ -1,5 +1,5 @@
 // Offline cache for the installable web version. Bump CACHE when any file changes.
-const CACHE = 'mds-4.0.0';
+const CACHE = 'mds-4.1.0';
 const ASSETS = ['./', 'index.html', 'manifest.webmanifest',
   'vendor/pdf.min.js', 'vendor/pdf.worker.min.js', 'vendor/pdf-lib.min.js',
   'vendor/mammoth.browser.min.js', 'vendor/jszip.min.js',
