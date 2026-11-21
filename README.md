@@ -2,7 +2,7 @@
 
 Resize, reflow, and crop PDF, DOCX, and RTF files for a 7.3-inch e-ink reader (324 × 576 pt pages). Everything runs on your device. Nothing is uploaded.
 
-## Version 4.1
+## Version 4.2
 
 Two modes:
 
@@ -10,9 +10,15 @@ Two modes:
   - **Landscape** fits the original page width to the long side of the Move, so text is about 1.8 times larger. Turn the Move sideways to read.
   - Page breaks fall between text lines when possible.
   - The report estimates the typical text size on the Move screen.
-- **Reformat document (text):** rebuilds PDF, DOCX, or RTF text. Choose the output format:
+- **Reformat document (text and pictures):** rebuilds PDF, DOCX, or RTF text and keeps pictures from PDF and RTF files. Choose the output format:
   - **PDF:** fixed pages at a custom text size.
-  - **EPUB:** reflowable, so font, size, margins, and spacing are set on the reader. Keeps all characters and supported RTF PNG/JPEG pictures.
+  - **EPUB:** reflowable, so font, size, margins, and spacing are set on the reader. Keeps all characters.
+
+Pictures:
+
+- **PDF:** each picture is copied as it appears on the page and placed where it starts in the text. Tiny images (icons) and full-page backgrounds are skipped. Charts drawn with lines rather than images are not detected.
+- **RTF:** PNG and JPEG pictures, including RTF saved from Word.
+- **DOCX:** text only. Save from Word as RTF to keep pictures.
 
 Also:
 
